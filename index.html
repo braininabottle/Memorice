@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=., initial-scale=1.0">
+    <title>Memorice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+    crossorigin="anonymous">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="fs-1 fw-bold mt-5 mb-5">Juego memorice</h1>
+        <div class="formulario">
+            <select name="dificultad" id="dificultad">
+                <option class="fs-1" value="facil">Fácil</option>
+                <option class="fs-1" value="medio">Medio</option>
+                <option class="fs-1" value="dificil">Difícil</option>
+            </select>
+            <button class="fs-3" name="comenzar" id="comenzar">Comenzar Juego</button>
+            <h2 id="jugadas">N° Jugadas: <span id="intentos">-</span></h2>
+            <button class="fs-3" name="reiniciar" id="reiniciar">Reiniciar</button>
+        </div>
+    </header>
+    <main>
+        <div id="mensaje"></div>
+        <div id="contenedor"></div>
+    </main>
+    <script src="assets/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/f119dc4da4.js" crossorigin="anonymous"></script>
+</body>
+</html>

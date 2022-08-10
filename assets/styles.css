@@ -1,0 +1,83 @@
+body {
+    background-color: #ccc;
+}
+
+main {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+#dificultad {
+    font-size: 25px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+#reiniciar,
+#jugadas {
+    display: none;
+}
+
+#jugadas {
+    margin-right: 6em;
+}
+
+#reiniciar {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 3em 2em;
+}
+
+.card {
+    width: 90px;
+    height: 90px;
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.4);
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+
+.card:hover,
+button:hover {
+    cursor: pointer;
+}
+
+#mensaje {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+
+}
+
+#mensaje div {
+    background-color: #ccc;
+    padding: 4em 10em;
+    border-radius: 10px;
+}
